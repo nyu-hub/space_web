@@ -1,6 +1,12 @@
+@font-face {
+  font-family: 'Pretendard';
+  src: url(Pretendard-Regular.otf);
+}
+
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(to right, #18111e, #271648, #231467);
+    font-family: 'Pretendard', 'Segoe UI', sans-serif;
+    background: url('stars-2617438_1920.jpg') no-repeat center center fixed;
+    background-size: cover;
     color: #fff;
     margin: 0;
     padding: 2rem;
@@ -49,3 +55,8 @@ body {
     line-height: 1.5;
   }
   
+  .planet-link {
+    text-decoration: none; 
+    color: white; 
+    display: block; 
+  }
