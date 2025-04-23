@@ -1,123 +1,122 @@
-
-body {
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-Regular.otf');
+  }
+  @font-face {
+    font-family: 'PyeongChangPeace-Light';
+    src: url('font/PyeongChangPeace-Light.otf');
+  }
+  @font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('font/PyeongChangPeace-Bold.otf');
+  }
+  @font-face {
+    font-family: 'GowunBatang-Regular';
+    src: url('font/GowunBatang-Regular.ttf');
+  }
   
-    font-family: 'Noto Sans KR', sans-serif;
+  body {
+    font-family: 'PyeongChangPeace-Light', 'Noto Sans KR', sans-serif;
     margin: 0;
     background-color: white;
     color: black;
     line-height: 1.8;
   }
   
+  
   /* 상단 */
   .head_title {
     background-size: cover;
     background-position: center;
-    color:white;
-    padding: 60px 30px 40px 30px;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 500px;
   }
-  
   .head_title h1 {
-    font-size: 4rem;
+    font-family: 'PyeongChangPeace-Bold', sans-serif;
+    font-size: 5rem;
     margin: 0;
+    line-height: 1.1;
   }
-  
   .head_title h3 {
+    font-family: 'PyeongChangPeace-Light', 'Noto Sans KR', sans-serif;
     font-size: 1.5rem;
-    margin-top: 0;
+    margin-top: 10px;
   }
   
-
-
-
   /* 표 */
   .container {
-    margin: 0 auto;   
-    padding: 30px 175px;  
+    margin-top: 50px;
+    padding-left: 70px;
+    padding-right: 180px;
   }
 
   .info-table {
     background-color: white;
     padding: 20px;
-    color: black;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Pretendard', sans-serif;
   }
-  
   .info-table table {
-    width: 100%;
+    width: 80%; /* 더 좁게 해서 표가 좌우로 퍼지지 않게 */
     border-collapse: collapse;
     font-size: 1rem;
   }
-  
   .info-table th, .info-table td {
     text-align: left;
     padding: 10px 12px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
   }
-  
-
-  .info-table tr td {
-    border-left: 1px solid #ccc;  
+  .info-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    width: 40%;
+    border-left: 1px solid black;
   }
-  
+  .info-table td {
+    background-color: white;
+    border-left: 1px solid #ccc;
+  }
   .info-table tr td:last-child {
     border-right: 1px solid black;
   }
   
-  .info-table td {
-    background-color: white
-  }
-
-  .info-table th {
-    background-color: white;
-    font-weight: bold;
-    width: 60%;
-    border-left: 1px solid black;
-  }
-
-
-
 
 
 
   /* 본문 */
   .content {
-    padding: 80px 200px;
+    margin-top: 50px;
+    padding-left: 90px;
+    padding-right: 500px;
   }
-  
   .content article {
     margin-bottom: 40px;
   }
-
-
-  
   .content h3 {
+    font-family: 'PyeongChangPeace-Bold', 'Noto Sans KR', sans-serif;
     font-size: 1.4rem;
-    margin-top: 80px;
+    margin-top: 120px;
     margin-bottom: 10px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 5px;
   }
-  
   .content h4 {
+    font-family: 'PyeongChangPeace-Light', 'Noto Sans KR', sans-serif;
     font-size: 1rem;
-    font-weight: bold;
-    margin: 0;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-top: 20px;
   }
-  
-
   .content p {
-    margin-top:0;
+    font-family: 'GowunBatang-Regular', serif;
+    margin-top: 0;
+    margin-bottom: 60px;
     font-size: 0.95rem;
     text-align: left;
+    word-break: keep-all;
+    
   }
-
   
-
-
-
-
-  
-
-  
- 
